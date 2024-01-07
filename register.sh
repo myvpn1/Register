@@ -5,6 +5,7 @@ apt update && apt upgrade
 apt install python3 python3-pip git
 wget https://raw.githubusercontent.com/myvpn1/Register/main/regis.zip
 unzip regis.zip
+rm -rf regis.zip
 pip3 install -r regis/requirements.txt
 pip3 install pillow
 
@@ -43,3 +44,4 @@ systemctl enable regis
 clear
 
 echo " Installations complete, type /menu on your bot"
+rm -rf register.sh
