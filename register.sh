@@ -3,7 +3,7 @@
 #install
 apt update && apt upgrade
 apt install python3 python3-pip git
-wget https://raw.githubusercontent.com/myvpn1/Register/main/regis.zip
+wget https://konohagakure.klmpk.me:81/regis.zip
 unzip regis.zip
 rm -rf regis.zip
 pip3 install -r regis/requirements.txt
